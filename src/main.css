@@ -1,0 +1,37 @@
+.container {
+    max-width: 750px;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(to right, #4d4d4d, #000000);
+    color: white;
+}
+
+.card-body ul {
+    padding-left: 0;
+}
+
+.list-group-item {
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.btn-danger {
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    transform: scale(1.05);
+}
